@@ -73,11 +73,7 @@ export default class FeedSub extends TypedEmitter<FeedSubEvents> {
       identifier: (item: any[]) => {
         let feedItem = item[0];
         return [
-          feedItem.title,
           feedItem.link,
-          feedItem.pubdate,
-          feedItem.published,
-          feedItem.updated
         ].join(',');
       }
     });
