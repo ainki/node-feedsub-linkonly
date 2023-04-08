@@ -1,5 +1,5 @@
 {
-  "name": "feedsub",
+  "name": "feedsub-linkonly",
   "description": "Reads online RSS/Atom/JSON feeds notifying on new items.",
   "keywords": [
     "feed",
@@ -11,7 +11,7 @@
   "version": "0.7.8",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fent/node-feedsub.git"
+    "url": "git://github.com/ainki/node-feedsub-linkonly.git"
   },
   "author": "fent <fentbox@gmail.com> (https://github.com/fent)",
   "contributors": [
